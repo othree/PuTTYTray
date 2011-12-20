@@ -255,8 +255,8 @@ GUITERM  = TERMINAL window windlg winctrls sizetip winucs winprint
          + urlhack regexp
 
 # Same thing on Unix.
-UXTERM   = TERMINAL uxcfg sercfg uxucs uxprint timing
-GTKTERM  = UXTERM gtkwin gtkcfg gtkdlg gtkfont gtkcols xkeysym
+UXTERM   = TERMINAL uxcfg sercfg uxucs uxprint timing urlhack regexp
+GTKTERM  = UXTERM gtkwin gtkcfg gtkdlg gtkfont gtkcols xkeysym urlhack regexp
 OSXTERM  = UXTERM osxwin osxdlg osxctrls
 
 # Non-SSH back ends (putty, puttytel, plink).
